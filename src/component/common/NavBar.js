@@ -9,7 +9,6 @@ export default function NavBar() {
     if (router.pathname === "/") setFocus(1);
     if (router.pathname === "/post") setFocus(2);
     if (router.pathname === "/about") setFocus(3);
-    console.log(router.pathname)
   }, [router.pathname])
 
   return (
