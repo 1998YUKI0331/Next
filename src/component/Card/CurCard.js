@@ -2,7 +2,7 @@ export default function CurCard(props) {
   return (
     <div className="card">
       {props.posts[props.currentSlide].title}
-
+      <br /><br />
       {props.posts[props.currentSlide].contents}
       <style jsx>{`
         .card {
